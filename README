@@ -1,1 +1,75 @@
-hi!
+HI! 
+
+# VLSI Design & Verification Projects
+
+Welcome! 👋  
+This repository documents my learning journey in **VLSI Design and Verification**, covering **Verilog, SystemVerilog, and UVM**.  
+The repo is structured as a collection of small projects, starting from **basic digital design** to **advanced verification environments**.
+
+---
+
+## 📂 Repository Structure
+
+/vlsi-projects
+├── 01-combinational-logic # Basic gates, adders, multiplexers
+├── 02-sequential-logic # Flip-flops, counters, shift registers
+├── 03-fsm-design # Finite State Machines
+├── 04-testbench-practice # Directed and random TBs
+├── 05-uvm-basic # Simple UVM environment
+├── 06-uvm-advanced # Scoreboard, coverage, sequences
+└── docs # Screenshots, waveforms, notes
+
+
+---
+
+## 🚀 Roadmap
+- [x] Combinational Circuits in Verilog  
+- [x] Sequential Circuits in Verilog  
+- [x] FSM-based Designs  
+- [ ] SystemVerilog Testbenches  
+- [ ] UVM Environment (Basic)  
+- [ ] UVM with Coverage & Assertions  
+
+---
+
+## 🔬 Tools Used
+- **Icarus Verilog / ModelSim** – Simulation  
+- **GTKWave** – Waveform visualization  
+- **SystemVerilog** – Testbench creation  
+- **UVM (Universal Verification Methodology)** – Advanced DV methodology  
+
+---
+
+## 📘 Project Highlights
+
+### 1. [4-bit ALU Design](./01-combinational-logic/alu)
+- **Objective:** Designed a 4-bit Arithmetic Logic Unit (ALU) with add, subtract, AND, OR.  
+- **Verification:** Directed + Random testbench.  
+- **Result:** Successfully verified functionality, added waveform screenshots.  
+- ![ALU Waveform](./docs/alu_waveform.png)  
+
+---
+
+---
+
+## 📌 Notes
+- Each project folder contains:
+  - `src/` – RTL design  
+  - `tb/` – Testbench files  
+  - `scripts/` – Simulation run scripts  
+  - `README.md` – Explanation of design & results  
+
+---
+
+## ✨ Future Plans
+- Add **coverage-driven verification**.  
+- Experiment with **SystemVerilog Assertions (SVA)**.  
+- Try open-source synthesis (Yosys).  
+
+---
+
+## 📫 Contact
+**Praful Kulkarni** – Electronics Engineer  
+- 📧 Email: [your email here]  
+- 🔗 LinkedIn: [your LinkedIn profile]  
+
